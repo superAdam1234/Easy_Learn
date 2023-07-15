@@ -1,0 +1,106 @@
+body{
+    display: flex;
+}
+#sidebar{
+    background-color: lemonchiffon;
+    width: 25%;
+    height: auto;
+    padding-top: 2%;
+
+}
+#title{
+    color: black;
+    margin-left: 25%;
+}
+.sidebarcontent{
+    color: gold;
+    text-decoration: none;
+    width: 100%;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.sidebarcontent:hover{
+    background-color: lightcoral;
+    width: 100%;
+}
+#container{
+    margin-left: 5%;
+    width: 75%;
+}
+#quality{
+    color: lemonchiffon;
+}
+hr{
+    width: 50%;
+    border: 5px solid lemonchiffon;
+    border-radius: 25px;
+}
+#row{
+    display: flex;
+    margin-bottom: 2%;
+}
+#row img{
+    width: 45%;
+    margin-left: 2%;
+    opacity: 50%;
+}
+#row img:hover{
+    opacity: 100%;
+}
+.grey{
+    color: gray;
+}
+#row2{
+    display: flex;
+    margin-bottom: 2%;
+}
+.card{
+    background-color: gainsboro;
+    width: 25%;
+    margin-left: 2%;
+}
+.card img{
+    width: 100%;
+}
+#learn{
+    background-color: white;
+    padding: 10%;
+}
+#learn:hover{
+    background-color: lemonchiffon;
+    color: pink;
+}
+#teach{
+    background-color: white;
+    padding: 10%;
+}
+#teach:hover{
+    background-color: lemonchiffon;
+    color: pink;
+}
+#services div{
+    display: flex;
+}
+#learnheading{
+    background-color: lemonchiffon;
+}
+#teachHeading{
+    background-color: lavenderblush;
+}
+table{
+    width: 45%;
+    background-color: lightgray;
+}
+input, textarea{
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 2%;
+}
+#submit{
+    background-color: lavender;
+    border: none;
+}
+.form{
+    display: block;
+    width: 100px;
+}
